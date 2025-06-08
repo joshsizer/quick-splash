@@ -27,7 +27,23 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="min-h-screen flex flex-col">
+          <div className="flex-1">
+            {children}
+          </div>
+          <footer className="py-4 text-center">
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              <a 
+                href="https://icons8.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-gray-700 dark:hover:text-gray-200 transition-colors"
+              >
+                Icons by Icons8
+              </a>
+            </p>
+          </footer>
+        </div>
       </body>
     </html>
   );
