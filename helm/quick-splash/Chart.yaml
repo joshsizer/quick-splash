@@ -1,0 +1,16 @@
+apiVersion: v2
+name: quick-splash
+description: A Helm chart for Quick Splash Next.js application
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+keywords:
+  - nextjs
+  - typescript
+  - web
+home: https://github.com/your-org/quick-splash
+sources:
+  - https://github.com/your-org/quick-splash
+maintainers:
+  - name: Your Name
+    email: your.email@example.com
